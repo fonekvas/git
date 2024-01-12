@@ -1,0 +1,65 @@
+{
+  "_inherit": true,
+
+  "customStyles": [
+    {
+        "cssRef": "theme-dark.css",
+        "classRef": "qv-dark"
+    }
+],
+
+  "backgroundColor": "#2d2f34",
+ 
+  "object" : {
+    "title": {
+      "main": {
+        "color": "aliceblue",
+     
+        "fontFamily": "Grtsk Giga Medium"
+      }
+    }
+    ,
+
+    "grid": {
+      "line": {
+        
+        "major": {
+          "color": "#ffffff"
+        },
+        "minor": {
+          "color": "#ffffff"
+        }
+      }
+    },
+
+    "barChart": {
+     
+
+      "label" : {
+       
+        "value" : {
+          "color": "aliceblue",
+        "fontSize": "14px"
+        }
+      },
+      "axis": {
+       
+        "label" : {
+
+          "name" : {
+            "color": "aliceblue",
+            "fontSize" : "14px"
+     
+          }
+     
+        }
+
+      }
+     
+    }
+  
+  
+
+}
+}
+ 

@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'Grtsk Giga Medium';
+	src: url('/Extensions/Theme-Dark/GrtskGiga-Medium.ttf') format('opentype');
+}
+
+.qv-st-data-cell {border:none; color:aliceblue}
+
+ .sel-toolbar-list, .serverSelected, .serverExcluded , .serverAlternative ,.qv-listbox-popover, .lui-search__search-icon, .lui-search__input, .lui-search__clear-button
+{   
+    border:none; 
+    color:aliceblue;
+    background-color: #2d2f34!important; 
+    padding-bottom: 0px;
+}
+
+[data-tid="qv-st-row"]:nth-child(odd) {
+    background-color: #383b40;
+    }
+
+    .qv-listbox-text, .qv-listbox-text-value
+    {
+        color:aliceblue;
+    }
+
+
+.qv-inner-object {border-radius: 13px;}
+
+.qv-st:hover  {
+    
+    box-shadow: 0 0 18px #09A652; /* Параметры тени */
+    
+  }
+
+  .qv-st-header-cell
+  {   
+    
+    color:aliceblue!important;
+    background-color: #2d2f34!important; 
+   
+}
+
+ .qv-barchart{
+    
+    pointer-events: none;
+    
+  }
+
+  .qvt-sheet {
+    background-color: #1f2023;
+  }
